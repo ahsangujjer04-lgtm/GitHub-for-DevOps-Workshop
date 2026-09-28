@@ -47,3 +47,5 @@ we read fuíve command for the purpose of the
   606  git commit -m "revision"
   607  git status
   608  git status testing.py
+
+this is my new changes
