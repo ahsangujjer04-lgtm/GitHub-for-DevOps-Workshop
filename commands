@@ -1,0 +1,49 @@
+we read fuíve command for the purpose of the 
+1-unstage
+2-tracked
+3-staged
+             1: git init empty git repository ko initalize kr skta hain
+             
+             2: git status to see the status
+             
+             3: git add untrack sy stage pr la kr ja skta hain
+             
+             4: git commit stage us track pr la ka ja skta hain
+             
+             5: git restore we can restore the detled file by giving the 
+                 name of the file which we want to recover
+
+                  601  git status
+ touch testing.py
+  577  ls
+  578  git status
+  579  git add testing.py
+  580  git status
+  581  git rm --cache
+  582  git rm --cached
+  583  git status
+  584  git restored --staged
+  585  git restore --staged
+  586  git restore --staged testing.py
+  587  git rm --cached testing.py
+  588  git status
+  589  git add .
+  590  git status
+  591  git commit -m "adding testing file"
+  592  clear
+  593  git status
+  594  rm testing.py
+  595  ls
+  596  git status
+  597  git restore testing.py
+  598  clear
+  599  git status
+  600  git rm --cached testing.py
+  601  git status
+  602  git add testing.py
+  603  git status
+  604  git add .
+  605  git status
+  606  git commit -m "revision"
+  607  git status
+  608  git status testing.py
