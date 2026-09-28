@@ -49,3 +49,16 @@ we read fuíve command for the purpose of the
   608  git status testing.py
 
 this is my new changes
+
+#when you push the code for the first time this is like a seed 
+#first time commit is initial commit 
+#first time your code will be in master branch when you create your repository at the local
+  
+      #we can create more branches in both repositories github and local
+      # lets talk how:
+                      Command:
+                               git branch (to check the branches in the repository)
+                              git branch (name) #in this way we will able 
+                              to create a new branch in the branch
+                              
+#when we create a repository on the github so our first branch name is main
