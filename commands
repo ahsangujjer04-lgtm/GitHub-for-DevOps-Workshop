@@ -87,3 +87,6 @@ To check the history:
                                             git log --oneline
 #HEAD:
       Represent the latest commit on the repository
+#pull request:
+             we will create a pull request and merge dev files into the master file
+             
