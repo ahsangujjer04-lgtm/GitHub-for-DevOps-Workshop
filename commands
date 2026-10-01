@@ -83,10 +83,29 @@ there are stratigies of the branches
 
 To check the history:
                     git log
+
                     to check in the one line:
                                             git log --oneline
 #HEAD:
       Represent the latest commit on the repository
 #pull request:
              we will create a pull request and merge dev files into the master file
+
+             pull will update the changes of the branch into the local
+
+             or if we want to changes from remote to local use fetch
              
+
+#GitHooks:
+          for example i have untracked file i use git add . to stage it it will become staged
+          after that i will commit it it will become a tracked file
+          so their is errors or syntex mistake it will commit so using the hooks 
+          we cannot commit it because by using the hooks we can add the internal checks 
+          to stop the errors
+#types of hooks:
+                pre commit hook:
+                                we can add he internal check before the commit this is
+                                pre commit hooks
+             #For Example:
+                         we add the internal check of syntex check
+                         if their is error in the syntex the hooks will stop the commit and donot commit it at any cost
